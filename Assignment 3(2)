@@ -1,0 +1,82 @@
+import java.util.*;
+import java.io.*;
+import java.util.Scanner;
+
+public class Even_Odd
+
+{
+
+public static void main(String[] args) 
+
+{
+
+int n;
+
+Scanner s = new Scanner(System.in);
+
+System.out.print("\nEnter no. of elements you want in array:");
+
+n = s.nextInt();
+
+int a[] = new int[n];
+
+System.out.println("\nEnter all the elements:");
+
+for (int i = 0; i < n; i++) 
+
+{
+
+a[i] = s.nextInt();
+
+}
+
+System.out.print("\nOdd numbers are in the array:");
+
+for(int i = 0 ; i < n ; i++)
+
+{
+
+if(a[i] % 2 != 0)
+
+{
+
+System.out.print(a[i]+" ");
+
+}
+
+}
+
+System.out.println("");
+
+System.out.print("\nEven numbers are in the array:");
+
+for(int i = 0 ; i < n ; i++)
+
+{
+
+if(a[i] % 2 == 0)
+
+{
+
+System.out.print(a[i]+" ");
+
+}
+
+}
+}
+
+}
+
+
+Output:
+
+Enter no. of elements you want in array:4
+Enter all the elements:
+2
+5
+9
+10
+
+Odd numbers are in the array:5 9 
+
+Even numbers are in the array:2 10 
