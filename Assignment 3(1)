@@ -1,0 +1,51 @@
+import java.util.Scanner; 
+public class avengers
+{ 	 	
+Scanner sc=new Scanner(System.in); 
+
+//	(name,age,power,weapon,planet) 
+
+String name,power,weapon,planet; 
+int age; 	
+
+public void getDetails() 	
+{ 		
+System.out.println("Enter your name:"); 	
+name=sc.nextLine(); 	
+	 
+System.out.println("Enter Your power:"); 		
+power=sc.nextLine(); 
+
+System.out.println("Enter Your weapon:"); 		
+weapon=sc.nextLine(); 	
+	 		
+System.out.println("Enter your planet:"); 		
+planet=sc.nextLine(); 
+
+System.out.println("Enter your age:"); 		
+age=sc.nextInt(); 
+} 	 	
+	
+public void displayDetails() 	
+{ 		
+System.out.println("Welcome "+name+", your power is "+power+", weapon is "+weapon+" and you are from "+planet+" and your age is "+age+"."); 	
+}
+ 
+public static void main(String args[])
+{ 
+  avengers a1= new avengers();
+        a1.getDetails();
+        a1.displayDetails();
+ } 
+                               
+}
+
+Output:
+
+Enter your name:Muheed
+Enter Your power:Leader
+Enter Your weapon:Missile
+Enter your planet:Mars
+Enter your age:30
+Welcome Muheed, your power is Leader, weapon is Missile and you are from Mars and your age is 30.
+
