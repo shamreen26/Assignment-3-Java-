@@ -44,10 +44,11 @@ public static void main(String args[])
 
 Output:
 
-Enter your name:Muheed
+Enter your name:Thor
 Enter Your power:Leader
 Enter Your weapon:Missile
 Enter your planet:Mars
-Enter your age:30
-Welcome Muheed, your power is Leader, weapon is Missile and you are from Mars and your age is 30.
+Enter your age:1500
+
+Welcome Thor, your power is Leader, weapon is Missile and you are from Mars and your age is 1500.
 
