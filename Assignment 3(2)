@@ -35,7 +35,10 @@ if(arr[i]%2!=0)
 { 
  System.out.println(arr[i]+" "); 
   }
- }
+else
+{
+System.out.println("\nThere is no odd values in given elements in the array");
+}
 
 } 
 }
@@ -52,4 +55,16 @@ Enter all the elements:
 70
 
 Odd values are:25 87
+
+Enter no. of elements you want in array:2
+
+Enter all the elements:
+10
+12
+
+There is no odd values in given elements in the array
+
+
+
+
 
